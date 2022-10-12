@@ -1,0 +1,1 @@
+cmd_/home/jz118/Downloads/exercise10/hello.ko := ld -r -m elf_x86_64 --build-id=sha1  -T arch/x86/module.lds -o /home/jz118/Downloads/exercise10/hello.ko /home/jz118/Downloads/exercise10/hello.o /home/jz118/Downloads/exercise10/hello.mod.o;  true
