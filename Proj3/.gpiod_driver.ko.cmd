@@ -1,0 +1,1 @@
+cmd_/home/debian/CLEAR_tranfer/Proj3/gpiod_driver.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/debian/CLEAR_tranfer/Proj3/gpiod_driver.ko /home/debian/CLEAR_tranfer/Proj3/gpiod_driver.o /home/debian/CLEAR_tranfer/Proj3/gpiod_driver.mod.o ;  true
