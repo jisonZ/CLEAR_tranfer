@@ -24,7 +24,7 @@ fn main() {
         println!("Good, now how old is I");
         let stdin = io::stdin(); // We get `Stdin` here.
         stdin.read_line(&mut second_user_input);
-        if second_user_input == "1" {
+        if second_user_input == "1\n" {
             println!("good guess, but no, DIE");
         } else {
             println!("That's right, good for u");
